@@ -1,0 +1,324 @@
+:export {
+  bubbles: 50; }
+
+.circle-1 {
+  animation-delay: 6.4s;
+  animation-fill-mode: backwards;
+  top: 199%;
+  left: -9vw; }
+
+.circle-2 {
+  animation-delay: -34.2s;
+  animation-fill-mode: backwards;
+  top: 249%;
+  left: 12vw; }
+
+.circle-3 {
+  animation-delay: -30s;
+  animation-fill-mode: backwards;
+  top: 141%;
+  left: 20vw; }
+
+.circle-4 {
+  animation-delay: 32.8s;
+  animation-fill-mode: backwards;
+  top: 286%;
+  left: 9vw; }
+
+.circle-5 {
+  animation-delay: -44.9s;
+  animation-fill-mode: backwards;
+  top: 264%;
+  left: -14vw; }
+
+.circle-6 {
+  animation-delay: -17.6s;
+  animation-fill-mode: backwards;
+  top: 26%;
+  left: 64vw; }
+
+.circle-7 {
+  animation-delay: 49.6s;
+  animation-fill-mode: backwards;
+  top: 47%;
+  left: 40vw; }
+
+.circle-8 {
+  animation-delay: 41.6s;
+  animation-fill-mode: backwards;
+  top: 272%;
+  left: 21vw; }
+
+.circle-9 {
+  animation-delay: 51.3s;
+  animation-fill-mode: backwards;
+  top: -28%;
+  left: -14vw; }
+
+.circle-10 {
+  animation-delay: -36.5s;
+  animation-fill-mode: backwards;
+  top: 223%;
+  left: 86vw; }
+
+.circle-11 {
+  animation-delay: -6s;
+  animation-fill-mode: backwards;
+  top: 117%;
+  left: -12vw; }
+
+.circle-12 {
+  animation-delay: -35.3s;
+  animation-fill-mode: backwards;
+  top: 0%;
+  left: 58vw; }
+
+.circle-13 {
+  animation-delay: 12.7s;
+  animation-fill-mode: backwards;
+  top: 255%;
+  left: 7vw; }
+
+.circle-14 {
+  animation-delay: 32.9s;
+  animation-fill-mode: backwards;
+  top: 224%;
+  left: -5vw; }
+
+.circle-15 {
+  animation-delay: 2.6s;
+  animation-fill-mode: backwards;
+  top: 182%;
+  left: 60vw; }
+
+.circle-16 {
+  animation-delay: 4s;
+  animation-fill-mode: backwards;
+  top: 1%;
+  left: 47vw; }
+
+.circle-17 {
+  animation-delay: -14.6s;
+  animation-fill-mode: backwards;
+  top: 198%;
+  left: -25vw; }
+
+.circle-18 {
+  animation-delay: -26.6s;
+  animation-fill-mode: backwards;
+  top: 185%;
+  left: 14vw; }
+
+.circle-19 {
+  animation-delay: -25.1s;
+  animation-fill-mode: backwards;
+  top: 60%;
+  left: 11vw; }
+
+.circle-20 {
+  animation-delay: 23.2s;
+  animation-fill-mode: backwards;
+  top: 241%;
+  left: 86vw; }
+
+.circle-21 {
+  animation-delay: 27.1s;
+  animation-fill-mode: backwards;
+  top: 71%;
+  left: 0vw; }
+
+.circle-22 {
+  animation-delay: 27.2s;
+  animation-fill-mode: backwards;
+  top: 264%;
+  left: 80vw; }
+
+.circle-23 {
+  animation-delay: -16.8s;
+  animation-fill-mode: backwards;
+  top: 244%;
+  left: 33vw; }
+
+.circle-24 {
+  animation-delay: 10s;
+  animation-fill-mode: backwards;
+  top: -1%;
+  left: -13vw; }
+
+.circle-25 {
+  animation-delay: -25.4s;
+  animation-fill-mode: backwards;
+  top: 172%;
+  left: 4vw; }
+
+.circle-26 {
+  animation-delay: 53.9s;
+  animation-fill-mode: backwards;
+  top: 155%;
+  left: 65vw; }
+
+.circle-27 {
+  animation-delay: -1.4s;
+  animation-fill-mode: backwards;
+  top: 279%;
+  left: 30vw; }
+
+.circle-28 {
+  animation-delay: 48.6s;
+  animation-fill-mode: backwards;
+  top: -10%;
+  left: 67vw; }
+
+.circle-29 {
+  animation-delay: 9.9s;
+  animation-fill-mode: backwards;
+  top: 90%;
+  left: -4vw; }
+
+.circle-30 {
+  animation-delay: 37.6s;
+  animation-fill-mode: backwards;
+  top: 146%;
+  left: 77vw; }
+
+.circle-31 {
+  animation-delay: -54.8s;
+  animation-fill-mode: backwards;
+  top: -18%;
+  left: 40vw; }
+
+.circle-32 {
+  animation-delay: 8s;
+  animation-fill-mode: backwards;
+  top: 198%;
+  left: 89vw; }
+
+.circle-33 {
+  animation-delay: -44.6s;
+  animation-fill-mode: backwards;
+  top: 260%;
+  left: 28vw; }
+
+.circle-34 {
+  animation-delay: -38.9s;
+  animation-fill-mode: backwards;
+  top: 191%;
+  left: 22vw; }
+
+.circle-35 {
+  animation-delay: -3.5s;
+  animation-fill-mode: backwards;
+  top: 121%;
+  left: 9vw; }
+
+.circle-36 {
+  animation-delay: -34.4s;
+  animation-fill-mode: backwards;
+  top: -13%;
+  left: 15vw; }
+
+.circle-37 {
+  animation-delay: 38.1s;
+  animation-fill-mode: backwards;
+  top: 156%;
+  left: 25vw; }
+
+.circle-38 {
+  animation-delay: 35.2s;
+  animation-fill-mode: backwards;
+  top: 193%;
+  left: 41vw; }
+
+.circle-39 {
+  animation-delay: -41.3s;
+  animation-fill-mode: backwards;
+  top: 36%;
+  left: 25vw; }
+
+.circle-40 {
+  animation-delay: -38.2s;
+  animation-fill-mode: backwards;
+  top: 235%;
+  left: 59vw; }
+
+.circle-41 {
+  animation-delay: -7.8s;
+  animation-fill-mode: backwards;
+  top: 182%;
+  left: -6vw; }
+
+.circle-42 {
+  animation-delay: -25.9s;
+  animation-fill-mode: backwards;
+  top: 21%;
+  left: 27vw; }
+
+.circle-43 {
+  animation-delay: -5.5s;
+  animation-fill-mode: backwards;
+  top: 33%;
+  left: -25vw; }
+
+.circle-44 {
+  animation-delay: -8.1s;
+  animation-fill-mode: backwards;
+  top: 205%;
+  left: 76vw; }
+
+.circle-45 {
+  animation-delay: 23.6s;
+  animation-fill-mode: backwards;
+  top: -26%;
+  left: -25vw; }
+
+.circle-46 {
+  animation-delay: -25.4s;
+  animation-fill-mode: backwards;
+  top: 234%;
+  left: 25vw; }
+
+.circle-47 {
+  animation-delay: -33.7s;
+  animation-fill-mode: backwards;
+  top: 51%;
+  left: 21vw; }
+
+.circle-48 {
+  animation-delay: 13.5s;
+  animation-fill-mode: backwards;
+  top: 223%;
+  left: 36vw; }
+
+.circle-49 {
+  animation-delay: 36.7s;
+  animation-fill-mode: backwards;
+  top: -9%;
+  left: 11vw; }
+
+.circle-50 {
+  animation-delay: 14.7s;
+  animation-fill-mode: backwards;
+  top: 116%;
+  left: 90vw; }
+
+[class*="circle-"] {
+  background: red;
+  position: absolute;
+  background-color: #000;
+  border-radius: 50%;
+  z-index: -10;
+  padding: 30em;
+  animation-duration: 60s;
+  animation-name: circlechange;
+  animation-direction: reverse;
+  animation-iteration-count: infinite; }
+
+@keyframes circlechange {
+  0% {
+    transform: scale(1);
+    opacity: 0; }
+  90% {
+    opacity: .25; }
+  100% {
+    transform: scale(0.01);
+    opacity: 0; } }
