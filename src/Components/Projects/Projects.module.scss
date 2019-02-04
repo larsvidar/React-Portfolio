@@ -1,0 +1,19 @@
+.projects {
+    background: rgba(255, 255, 255, .5);
+    width: 100%;
+
+    .myprojects {
+        margin-bottom: 1em;
+    }
+
+    [class^="Project_p"] {
+        margin: 0 auto 1em;
+        width: 80%;
+    }
+
+    @media (min-width: 650px) {
+        [class^="Project_p"] {
+            width: 90%;
+        }
+    }
+}

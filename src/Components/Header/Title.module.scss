@@ -1,12 +1,9 @@
-/*** Styles for Title.js ***/
-
-:root {
-  --title-font-size: 1.2em;
-  --tagline-font-size: .75em;
-}
+/*** Styles for Title.jsx ***/
 
 .title {
   text-align: center;
+  margin-bottom: 1em;
+  width: 100%;
 
   .headline {
     display: inline-block;
@@ -16,25 +13,24 @@
     padding: .3em;
     margin-top: 1em;
     margin-bottom: .5em;
-    font-size: var(--title-font-size);
+    font-size: var(--title);
   }
   
   .tagline {
-    margin-bottom: 2em;
-    font-size: var(--tagline-font-size);
+    font-size: var(--tagline);
   }
   
   @media (min-width: 500px) {
     :root {
-      --title-font-size: 1.6em;
-      --tagline-font-size: 1em;
+      --title: 1.6em;
+      --tagline: 1em;
     }
   }
   
   @media (min-width: 650px) {
     :root {
-      --title-font-size: 1.8em;
-      --tagline-font-size: 1.2em;
+      --title: 1.8em;
+      --tagline: 1.2em;
     }
   }
 

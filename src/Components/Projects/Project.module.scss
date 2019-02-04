@@ -1,0 +1,90 @@
+.project {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2em;
+  align-items: center;
+
+  a {
+    color: var(--text-dark);
+    text-decoration: none;
+  }
+
+  h3 {
+    font-size: var(--project-title);
+  }
+  
+  p {
+    font-size: var(--project-description);
+    font-family: 'Tajawal', sans-serif;
+    color: var(--text-dark);
+    text-align: justify; 
+    margin: 0 0 1.5em; 
+  }
+
+  [class^="TechList"] {
+    margin-bottom: 1em;
+  }
+
+  hr {
+    width: 100%;
+  }
+}
+
+@media (min-width: 650px) {
+  :root {
+    --project-info-width: 100%;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-areas: "title title title"
+                         "image description description"
+                         "image techlist techlist"
+                         "gitlink gitlink gitlink";
+    grid-column-gap: 2%;
+    margin: 0 50px 1em;
+
+    h3 {
+      grid-area: title;
+      text-align: left;
+    }
+
+    [class^="Thumb"] {
+      grid-area: image;
+      align-self: flex-start;
+      width: 100%;
+    }
+        
+    p {
+      align-self: flex-start;
+      grid-area: description;
+      margin: 0 0 1em 0;
+    }
+
+    [class^="TechList"] {
+      grid-area: techlist;
+      align-self: center;
+      align-self: flex-start;
+    }
+
+    [class^="GitLink"] {
+      grid-area: gitlink;
+      align-self: flex-start;
+    }
+
+    hr {
+      grid-area: gitlink;
+      align-self: flex-end;
+    }
+
+    &:nth-child(even) {
+      grid-template-areas: "title title title"
+                           "description description image "
+                           "techlist techlist image"
+                           "gitlink gitlink gitlink";
+    }
+  }
+}

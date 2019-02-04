@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./Title.css";
+import styles from "./Title.module.scss";
 
 const Title = props => {
   return (
-    <div className="title">
-      <h1 className="headline">{props.title}</h1>
-      <h2 className="tagline">{props.tag}</h2>
+    <div className={styles.title}>
+      <h1 className={styles.headline}>{props.title}</h1>
+      <h2 className={styles.tagline}>{props.tag}</h2>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Styles from './BackgroundAnim.css';
+import Styles from './BackgroundAnim.scss';
 
 //Gets number of bubbles to show from CSS-file.
 let bubbleNumber = parseInt(Styles.bubbles, 10);
@@ -11,7 +11,6 @@ const BackgroundAnim = props => {
     for (let i = 1; i <= bubbleNumber; i++) {
       circles.push("circle-" + i);
     }
-    console.log(circles);
     return circles;
   }
 
