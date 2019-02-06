@@ -1,12 +1,16 @@
+//Styles for BackgroundAnim.jsx
+
+//Number of bubbles to generate.
 $bubbles: 50;
 
+//Exporting number of bubbles.
 :export {
   bubbles: $bubbles;
 }
 
+//A loop that generates each bubble as a seperate element with it's own classname.
 $circle: circle;
 @for $i from 1 through $bubbles {
-
 .#{$circle}-#{$i} { animation-delay: ((random(1200) / 10) - 60 + s);
                     animation-fill-mode: backwards;
                     top: random(320) - 30%;
@@ -14,10 +18,10 @@ $circle: circle;
                   }
 }
 
+//Style for the bubble.
 .background-anim {
 
   [class*="circle-"] {
-    background: red;
     position: absolute;
     background-color: #000;
     border-radius: 50%;
@@ -30,6 +34,7 @@ $circle: circle;
     animation-iteration-count: infinite;
   }
 
+  //Animation of growing bubbles.
   @keyframes circlechange {
     0% {
       transform: scale(1);

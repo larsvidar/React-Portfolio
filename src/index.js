@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
+//Import for global styles.
 import './index.scss';  //Global styles.
 import './colors.scss'; //Global variables.
 
 
 // Array of objects containing information about each project.
+/* name: Headline for project
+   link: Clickable link on Thumb and Title to a live version of the project.
+   description: A short description of the project.
+   image: a thumbnail of the project that has to be placed in the public/images folder.
+   technologies: List of technologies used in the project.
+   github: Link to the project at GitHub or similar sites.
+*/
 const projectsArray = [
   {name: "BildEdit", 
           link: "https://larsvidar.no/projects/bildedit/",
