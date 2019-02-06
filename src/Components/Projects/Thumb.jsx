@@ -1,7 +1,9 @@
+//Imports
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Thumb.module.scss';
 
+//Component function
 const Thumb = (props) => {
     return (
         <a href={props.link} className={styles.projectthumb} target="_blank" rel="noopener noreferrer">
@@ -10,6 +12,7 @@ const Thumb = (props) => {
     );
 }
 
+//PropTypes
 Thumb.propTypes = {
     name: PropTypes.string.isRequired,
     link: PropTypes.string.isRequired,

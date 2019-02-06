@@ -1,8 +1,48 @@
+//Styles for TechList.jsx
+
+//Component styles
 .techlist {
+    --icon-size: 16; //Variable for the size of the tech-icons.
+
     list-style: none;
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+
+    //Icon styles
+    .html {
+        font-size: calc(var(--icon-size) * 1px);
+        vertical-align: top;
+        color: #dd4b25;
+    }
+
+    .css {
+        font-size: calc(var(--icon-size) * 1px);
+        vertical-align: top;
+        color: #1a6fb4;
+    }
+
+    .javascript {
+        font-size: calc(var(--icon-size) * 1px);
+        vertical-align: top;
+        color: #de9e2a;
+    }
+
+    .react {
+        font-size: calc(var(--icon-size) * 1px);
+        vertical-align: top;
+        color: #5ed3f3;
+    }
+
+    .jquery {
+        width: calc(var(--icon-size) * .9px);
+        vertical-align: top;
+    }
+
+    .bootstrap {
+        width: calc(var(--icon-size) * 1.2px);
+        vertical-align: top;
+    }
 }

@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
-import './scales.scss';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+
+import './index.scss';  //Global styles.
+import './colors.scss'; //Global variables.
 
 
 // Array of objects containing information about each project.
@@ -12,7 +13,7 @@ const projectsArray = [
           link: "https://larsvidar.no/projects/bildedit/",
           description: "A CSS filter image editor. This app is styled to look like a traditional image editing software. It let's the user load an image and apply CSS-filters to it.<br>The app is made with HTML5, CSS3, JavaScript and jQuery.", 
           image: "bildedit-small.jpg", 
-          technologies: ["HTML5", "CSS3", "JavaScript", "jQuery", "Bootstrap"],
+          technologies: ["HTML5", "CSS3", "JavaScript", "React", "jQuery", "Bootstrap"],
           github: "https://github.com/larsvidar/Bildedit"},
   {name: "Memory Game", 
           link: "https://larsvidar.no/projects/memory/",

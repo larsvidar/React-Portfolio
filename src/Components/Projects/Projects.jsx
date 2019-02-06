@@ -1,13 +1,11 @@
+// Imports
 import React from 'react';
 import PropTypes from 'prop-types';
 import Project from "./Project";
 import styles from "./Projects.module.scss";
 
-
-
-
+//Component function
 const Projects = props => {
-
   return (
     <div className={styles.projects}>
       <div className={styles.myprojects}>
@@ -27,6 +25,7 @@ const Projects = props => {
   );
 }
 
+//PropTypes
 Projects.propTypes = {
   projects: PropTypes.array.isRequired,
 }

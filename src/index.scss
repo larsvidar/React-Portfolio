@@ -1,3 +1,4 @@
+//Reset styles
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,8 +11,11 @@ html {
   height: 100%;
 }
 
+//Default font and color for app.
 #root {
+  --text-default: 16px;
+  
   font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 16px;
-  color: rgb(27, 34, 22);
+  font-size: var(--text-default);
+  color: var(--text-color-default);
 }

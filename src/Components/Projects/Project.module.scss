@@ -1,4 +1,8 @@
+//Component styles
 .project {
+  --project-title: 2em;
+  --project-description: 1em;
+  
   width: 100%;
   margin: auto;
   display: flex;
@@ -32,6 +36,7 @@
   }
 }
 
+/*** Media Queries ***/
 @media (min-width: 650px) {
   :root {
     --project-info-width: 100%;

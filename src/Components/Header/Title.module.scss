@@ -1,13 +1,18 @@
 /*** Styles for Title.jsx ***/
 
+//Component styles
 .title {
+  --title: 1.2em;
+  --tagline: .75em;
+  
   text-align: center;
   margin-bottom: 1em;
   width: 100%;
 
+  // Headline styles
   .headline {
     display: inline-block;
-    color: #000;
+    color: var(--text-color-default);
     border: 1px solid;
     border-radius: 5px;
     padding: .3em;
@@ -16,10 +21,13 @@
     font-size: var(--title);
   }
   
+  // Tagline styles
   .tagline {
     font-size: var(--tagline);
   }
   
+
+  /***** Media Queries *****/
   @media (min-width: 500px) {
     :root {
       --title: 1.6em;
@@ -33,5 +41,4 @@
       --tagline: 1.2em;
     }
   }
-
 }

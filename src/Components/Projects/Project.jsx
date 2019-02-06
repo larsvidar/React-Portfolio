@@ -1,11 +1,14 @@
+//Imports
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Project.module.scss';
 
+//Component imports
 import Thumb from './Thumb';
 import TechList from './TechList';
 import GitLink from './GitLink';
 
+//Component function
 const Project = props => {
   return(
     <div className={styles.project}>
@@ -29,6 +32,7 @@ const Project = props => {
   );
 }
 
+//PropTypes
 Project.propTypes = {
   project: PropTypes.object.isRequired,
 }

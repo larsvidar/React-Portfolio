@@ -1,9 +1,10 @@
+//Imports
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './GitLink.module.scss';
-
 import {FaGithub} from 'react-icons/fa';
 
+//Component function
 const GitLink = (props) => {
     return (
     <a href={props.github} className={styles.githublink}>
@@ -13,6 +14,7 @@ const GitLink = (props) => {
     );
 }
 
+//PropTypes
 GitLink.propTypes = {
     github: PropTypes.string.isRequired
 }

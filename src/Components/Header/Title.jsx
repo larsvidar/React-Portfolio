@@ -1,7 +1,9 @@
+//Imports
 import React from "react";
 import PropTypes from "prop-types";
 import styles from "./Title.module.scss";
 
+//Component function
 const Title = props => {
   return (
     <div className={styles.title}>
@@ -11,6 +13,7 @@ const Title = props => {
   );
 }
 
+//PropTypes
 Title.propTypes = {
   title: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
