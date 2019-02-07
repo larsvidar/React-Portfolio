@@ -11,38 +11,58 @@
     flex-wrap: wrap;
     justify-content: space-around;
 
-    //Icon styles
-    .html {
-        font-size: calc(var(--icon-size) * 1px);
-        vertical-align: top;
-        color: #dd4b25;
+    li {
+
+        /****** Icon styles ******/
+
+        //Font Awesome icons
+        .html, .css, .javascript, .react {
+            font-size: calc(var(--icon-size) * 1px);
+            vertical-align: top;
+            margin-bottom: 3px;
+        }
+        
+        .html {
+            color: #dd4b25; 
+        }
+
+        .css {
+            color: #1a6fb4;
+        }
+
+        .javascript {
+            color: #de9e2a;
+        }
+
+        .react {
+            color: #5ed3f3;
+        }
+
+        //SVG icons
+        .jquery, .bootstrap, .sass {
+            width: calc(var(--icon-size) * .9px);
+            vertical-align: top;
+            margin-bottom: 4px;
+        }
+
+        .jquery { 
+            margin-bottom: 6px;
+        }
+
+        .bootstrap {
+            width: calc(var(--icon-size) * 1.2px);
+        }
+
+        .sass {
+            margin-top: 2px;
+        }
+
+        p {
+            font-family: 'Alegreya Sans SC', sans-serif;
+        }
     }
 
-    .css {
-        font-size: calc(var(--icon-size) * 1px);
-        vertical-align: top;
-        color: #1a6fb4;
-    }
-
-    .javascript {
-        font-size: calc(var(--icon-size) * 1px);
-        vertical-align: top;
-        color: #de9e2a;
-    }
-
-    .react {
-        font-size: calc(var(--icon-size) * 1px);
-        vertical-align: top;
-        color: #5ed3f3;
-    }
-
-    .jquery {
-        width: calc(var(--icon-size) * .9px);
-        vertical-align: top;
-    }
-
-    .bootstrap {
-        width: calc(var(--icon-size) * 1.2px);
-        vertical-align: top;
+    @media (min-width: 650px) {
+        --icon-size: 30;
     }
 }

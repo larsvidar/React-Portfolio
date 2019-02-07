@@ -36,8 +36,12 @@ const TechList = (props) => {
                             <FaReact className={styles.react} />
                         }
 
+                        {tech.toLowerCase()  === "sass" &&
+                            <img src={"./images/icons/sass-logo.svg"} alt={tech} className={styles.sass}></img>
+                        }
+
                         {
-                            <span> {tech}</span>
+                            <p> {tech}</p>
                         }
                     </li>
                 );
